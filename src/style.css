@@ -1,0 +1,450 @@
+h1,
+p {
+  font-family: Lato;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: fit-content;
+}
+root {
+  min-width: 275;
+}
+bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+title {
+  font-size: 14;
+}
+pos {
+  margin-bottom: 12;
+}
+.App {
+  position: absolute;
+  height: auto;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  box-sizing: content-box;
+  background-color: #1c0a40;
+  background-size: cover;
+  backdrop-filter: blur(2px) drop-shadow(4px 4px 10px grey);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.whitebox {
+  position: relative;
+  top: -15.63rem;
+  padding-bottom: 1rem;
+  width: 98%;
+  height: auto;
+  border-radius: 25px;
+  backdrop-filter: blur(2px) opacity(1);
+  left: 1%;
+  z-index: 99;
+  box-shadow: inset 2px 1px 2px #bdb76b, 1px 1px 1px 1px #bdb76b;
+  background-image: url('https://static.vecteezy.com/ti/vecteur-libre/p1/1342886-fond-degrade-geometrique-bleu-fonce-gratuit-vectoriel.jpg');
+  background-size: cover;
+  font-family: 'forte', sans-serif;
+}
+
+.bio {
+  width: 81%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 5%;
+  background-color: transparent;
+  flex-direction: row;
+  font-family: 'forte', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textbio {
+  align-items: center;
+  text-align: left;
+  width: 95.63%;
+  align-content: center;
+  height: 150px;
+  justify-content: center;
+  margin-top: 12px;
+  padding-top: 25px;
+  margin-left: 0.5rem;
+  color: #eee;
+  padding-left: 10px;
+  border-left: 5px solid #bdb76b;
+  font-size: large;
+  content: '\263A';
+}
+.paper > h5 {
+  width: 80%;
+  height: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: 2vw;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  padding: 2%;
+  margin-left: 0.3vw;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+.paper > h6 {
+  height: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: 2vw;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  padding: 2%;
+  margin-bottom: 1em;
+  margin-left: 0.2vw;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+.whitebox > h3 {
+  margin-top: 120px;
+  text-decoration: underline;
+  color: white;
+  font-size: 2.5em;
+  margin-left: 25%;
+}
+header {
+  width: 76.53%;
+  position: relative;
+  height: 5.5rem;
+  background-color: transparent;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  font-family: 'forte' !important;
+  font-size: 10ch;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+}
+.logo {
+  width: 45px;
+  background-color: brown;
+}
+.navibar {
+  width: 66.13%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: 32.5%;
+  color: #eee;
+  background-color: transparent;
+  text-align: center;
+}
+.item1of4 {
+  width: 23.8%;
+  height: auto;
+  min-width: 23%;
+  min-height: 24%;
+  border-radius: 25px;
+  margin-bottom: 4rem;
+  margin-left: 2px;
+  padding-bottom: 32px;
+  white-space: pre-line;
+  color: black;
+  align-items: center;
+  display: block;
+  align-content: center;
+  text-align: center;
+  background-color: #bdb76b;
+  border: 1px solid #eee;
+}
+
+.paper > h5 {
+  width: 95%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: 1.5em;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  margin-right: 1.5em;
+  padding-right: 1.5em;
+  margin-top: -3px;
+  padding: 15px;
+  white-space: pre-line;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+.paper > h6,
+p {
+  margin-top: -14.5%;
+  padding: 2%;
+  text-overflow: ellipsis;
+}
+.paper > a {
+  color: #808080;
+  background-color: transparent;
+  margin-top: -19.5%;
+  margin-bottom: 2.5%;
+}
+.svgfolio {
+  width: 309px;
+  height: 309px;
+  margin-top: -4.5em;
+  margin-left: 1.24rem;
+  margin-bottom: 12px;
+}
+.photo {
+  width: 209px;
+  height: 209px;
+  margin-top: 3.9rem;
+  margin-left: 1.24rem;
+  margin-bottom: 12px;
+  border: 1px solid #eee;
+  box-shadow: inset 1px 1px 1px #bdb76b;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+}
+.separator {
+  width: 68%;
+  min-height: 2px;
+  background-color: #bdb76b;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  align-content: center;
+  margin-left: 10rem;
+  align-self: center;
+}
+.round {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid #bdb76b;
+  margin-top: -3rem;
+  margin-left: 5%;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  border-collapse: collapse;
+  border-spacing: 15px 50px 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  .footer3of3 {
+    width: 100%;
+    background-color: transparent;
+    height: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 7px;
+    margin-left: 19%;
+  }
+  .round {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px solid #bdb76b;
+    margin-top: -3rem;
+    margin-left: 2.5vw;
+    background-color: black;
+    border-collapse: collapse;
+    border-spacing: 15px 50px 10px;
+    align-items: center;
+    align-content: center;
+  }
+  .paper {
+    display: block;
+    width: 98%;
+    align-items: center;
+    align-content: center;
+  }
+  h6 {
+    color: #585858 !important;
+  }
+  .whitebox > h3 {
+    margin-top: 120px !important;
+    text-decoration: underline;
+    color: 'white';
+    font-size: 2.5em;
+    margin-left: 29.5%;
+  }
+  .paper > a {
+    margin-bottom: 2.8%;
+    position: sticky;
+  }
+
+  .paper > h5 {
+    width: 80%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 5vw;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    padding: 2%;
+    margin-left: 2vw;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+  .paper > h6 {
+    width: 80%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 4vw;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    padding: 2%;
+    margin-left: 2vw;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+  .paper > h6,
+  p {
+    margin-top: -8.5%;
+    padding: 2%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+  }
+  .separator {
+    width: 78%;
+    min-height: 2px;
+    background-color: #bdb76b;
+    color: #c9b928;
+    margin: 1vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-content: center;
+    margin-left: 1.95rem;
+    align-self: center;
+  }
+  .photo {
+    width: 209px;
+    height: 209px;
+    margin-top: 0.5rem;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    box-shadow: inset 1px 1px 1px #bdb76b;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+  }
+  .item1of4 > p {
+    margin: 2vw;
+    text-align: justify;
+  }
+  .item1of4 {
+    width: 98%;
+    height: auto;
+    max-width: 97%;
+    max-height: 280px;
+    margin-top: 16.8%;
+    margin-left: 2%;
+    color: black;
+    background-color: #bdb76b;
+    border: 1px solid #eee;
+  }
+  .navibar {
+    width: 88%;
+    height: 8rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.8em;
+    margin-top: 14.5rem;
+    color: white;
+    background-color: transparent;
+  }
+  .logo {
+    width: 32.26%;
+    background-color: brown;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    padding-top: 0.5rem;
+    height: 1rem;
+    flex-direction: row;
+    background-color: transparent;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: left;
+    font-family: 'forte', sans-serif;
+  }
+  .content {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+  }
+  .whitebox {
+    position: relative;
+    margin-top: 16.4rem;
+    width: 94%;
+    margin-bottom: 15%;
+    border-radius: 25px;
+    height: auto !important;
+    z-index: 99;
+    background-color: #bdb76b;
+    font-family: 'forte', sans-serif;
+  }
+  .textbio {
+    align-items: center;
+    text-align: left;
+    width: 53vw;
+    height: 38vh;
+    align-content: center;
+    justify-content: center;
+    margin-top: -57px;
+    margin-left: 0.5rem;
+    overflow: auto;
+    margin-bottom: 12px;
+    font-size: large;
+    content: '\263A';
+    border-left: 5px solid #bdb76b;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .textbio::-webkit-scrollbar {
+    display: none;
+  }
+  .bio {
+    width: 86%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 2%;
+    margin-top: 5.99rem;
+    color: #eee;
+    font-size: 2vw;
+    background-color: transparent;
+    font-family: 'Brush Script MT', cursive;
+  }
+  .images {
+    width: 240.5px;
+    height: 240px;
+    margin-left: 5%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+}
