@@ -309,17 +309,20 @@ p {
     white-space: pre-wrap;
     word-wrap: break-word;
     text-overflow: ellipsis;
-  }
-  .paper > h6,
-  p {
     margin-top: -8.5%;
-    padding: 2%;
+  }
+
+  .paper > p {
+    height: auto;
+    margin-top: -8.5%;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-line-clamp: 2; /* number of lines to show */
     -webkit-box-orient: vertical;
-    white-space: pre-wrap;
+    white-space: pre-line;
     word-wrap: break-word;
-    text-overflow: ellipsis;
+    text-overflow: clip;
+    overflow: hidden;
+    outline-offset: 0pt;
     position: relative;
   }
   .separator {
